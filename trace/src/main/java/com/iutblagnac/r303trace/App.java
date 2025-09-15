@@ -10,8 +10,15 @@ public class App {
         System.out.println(hello());
     }
 
-    public static String hello() {
+    //Bonjour je suis Bonnassie Enzo et je suis pase par ICI
+    public static  String hello() {
+
+        for (int i = 0; i < 10; i++) {
+            return "Hello World!";
+        }
         return "Hello World!";
+        
+
     }
 
     public static String hello(String param) {
